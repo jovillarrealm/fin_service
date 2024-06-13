@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package days_service;
+
+option go_package = "./proto;days";
+
+service days_service {
+    rpc GetDays(CondicionesIniciales) returns (Dias );
+}
+message CondicionesIniciales {
+    double saldo = 1;
+    double tasa_anual = 2;
+}
+
+message Dias {
+    int64 dias = 1;
+}
