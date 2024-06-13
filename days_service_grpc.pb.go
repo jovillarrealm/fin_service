@@ -4,7 +4,7 @@
 // - protoc             v5.27.1
 // source: fin_service/days_service.proto
 
-package days
+package dayss
 
 import (
 	context "context"
