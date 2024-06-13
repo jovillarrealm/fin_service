@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package days_service;
 
-option go_package = "./proto;dayss";
+option go_package = "./proto;days";
 
 service days_service {
     rpc GetDays(CondicionesIniciales) returns (Dias );
