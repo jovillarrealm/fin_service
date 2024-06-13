@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v5.27.1
-// source: proto/days_service.proto
+// source: fin_service/days_service.proto
 
 package days
 
@@ -101,5 +101,5 @@ var DaysService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "proto/days_service.proto",
+	Metadata: "fin_service/days_service.proto",
 }
